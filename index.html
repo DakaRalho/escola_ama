@@ -3,90 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escola Exemplo</title>
+    <title>Jornal da Escola - Edição Old Skull</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            font-family: 'Courier New', monospace;
             margin: 0;
             padding: 0;
-            background-color: #f0f8ff; /* Azul claro */
         }
-
         header {
-            background-color: #00ced1; /* Verde água */
-            color: white;
-            text-align: center;
+            background-color: #333;
             padding: 10px;
+            text-align: center;
         }
-
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
         nav {
-            display: flex;
-            justify-content: center;
-            background-color: #008b8b; /* Azul médio */
-            padding: 5px;
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
         }
-
         nav a {
-            color: white;
+            color: #fff;
             text-decoration: none;
             margin: 0 10px;
+            font-size: 18px;
         }
-
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 0 20px;
+        section {
+            padding: 20px;
         }
-
-        .projects {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-
-        .project {
-            width: calc(33.33% - 20px);
+        article {
+            border-bottom: 1px solid #666;
+            padding-bottom: 20px;
             margin-bottom: 20px;
-            padding: 10px;
-            background-color: white;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
         }
-
-        .project img {
-            max-width: 100%;
-            height: auto;
+        h2 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        footer {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Bem-vindo à Escola Exemplo</h1>
+        <h1>Jornal da Escola</h1>
+        <p>Edição Old Skull</p>
     </header>
     <nav>
-        <a href="#">Página Inicial</a>
-        <a href="#">Projetos</a>
-        <a href="#">Fotos</a>
+        <a href="#">Notícias</a>
+        <a href="#">Esportes</a>
+        <a href="#">Entretenimento</a>
+        <a href="#">Opinião</a>
         <a href="#">Contato</a>
     </nav>
-    <div class="container">
-        <h2>Projetos dos Alunos</h2>
-        <div class="projects">
-            <div class="project">
-                <img src="caminho-da-imagem1.jpg" alt="Projeto 1">
-                <h3>Projeto 1</h3>
-                <p>Descrição do projeto 1.</p>
-            </div>
-            <div class="project">
-                <img src="caminho-da-imagem2.jpg" alt="Projeto 2">
-                <h3>Projeto 2</h3>
-                <p>Descrição do projeto 2.</p>
-            </div>
-            <div class="project">
-                <img src="caminho-da-imagem3.jpg" alt="Projeto 3">
-                <h3>Projeto 3</h3>
-                <p>Descrição do projeto 3.</p>
-            </div>
-        </div>
-    </div>
+    <section>
+        <article>
+            <h2>Título da Notícia</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit odio nec mi consectetur, in cursus libero cursus. Curabitur at augue vel.</p>
+        </article>
+        <article>
+            <h2>Título do Artigo de Opinião</h2>
+            <p>Quisque dapibus, mi vel viverra sodales, nunc justo vulputate tellus, sed.</p>
+        </article>
+        <!-- Mais artigos aqui -->
+    </section>
+    <footer>
+        <p>&copy; 2023 Jornal da Escola - Edição Old Skull</p>
+    </footer>
 </body>
 </html>
