@@ -52,35 +52,35 @@
             padding: 10px;
             text-align: center;
         }
-
-
         .logo {
             position: absolute;
             top: 10px;
             left: 10px;
             width: 100px; /* Defina o tamanho desejado para a imagem */
-
-        
+            height: auto; /* Adicione esta linha para manter a proporção da imagem */
+        }
     </style>
 </head>
 <body>
     <header>
-        <img class="logo" src="aq-removebg-preview.png">
+        <img class="logo" src="aq-removebg-preview.png" alt="Logo">
         <h1>Jornal da Escola</h1>
         <p>A.M.A.</p>
     </header>
     <nav>
-        <li><button onclick="window.location.href='Noticias.html" Notícias</button></li>
-        <li><button onclick="window.location.href='Esportes.html" Esportes</button></li>
-        <li><button onclick="window.location.href='Entretenimento.html" Entretenimento</button></li>
-        <li><button onclick="window.location.href='Contato.html" Contato</button></li
+        <ul>
+            <li><a href="Noticias.html">Notícias</a></li>
+            <li><a href="Esportes.html">Esportes</a></li>
+            <li><a href="Entretenimento.html">Entretenimento</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+        </ul>
     </nav>
     <section>
         <article>
             <h2>Título da Notícia</h2>
-            <p>Olimpiadas fotos</p>
+            <p>Olimpíadas fotos</p>
         </article>
-    
+    </section>
     <footer>
         <p>&copy; 2023 Jornal da Escola - Antero Magalhães de Aguiar</p>
     </footer>
